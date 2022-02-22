@@ -80,7 +80,7 @@ function Game({ myChoice, score, setScore }) {
       {playerWin === "win" && (
         <div className="game__play">
           <span className="text">You Win</span>
-          <Link to="/" className="play-again" onClick={() => setHouse("")}>
+          <Link to="/rock-paper-scissors-app" className="play-again" onClick={() => setHouse("")}>
             Play Again
           </Link>
         </div>
@@ -88,7 +88,7 @@ function Game({ myChoice, score, setScore }) {
       {playerWin === "lose" && (
         <div className="game__play">
           <span className="text">You Lose</span>
-          <Link to="/" className="play-again" onClick={() => setHouse("")}>
+          <Link to="/rock-paper-scissors-app" className="play-again" onClick={() => setHouse("")}>
             Play Again
           </Link>
         </div>
@@ -96,7 +96,7 @@ function Game({ myChoice, score, setScore }) {
       {playerWin === "draw" && (
         <div className="game__play">
           <span className="text">Draw</span>
-          <Link to="/" className="play-again" onClick={() => setHouse("")}>
+          <Link to="/rock-paper-scissors-app" className="play-again" onClick={() => setHouse("")}>
             Play Again
           </Link>
         </div>

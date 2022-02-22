@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route 
             exact 
-            path="/" 
+            path="/rock-paper-scissors-app" 
             element={
               <Play 
                 setMyChoice={setMyChoice} 
